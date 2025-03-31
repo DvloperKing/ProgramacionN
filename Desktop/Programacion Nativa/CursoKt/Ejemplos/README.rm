@@ -47,7 +47,9 @@ Operaciones Avanzadas
 24. Proyecto42 - Principal.kt: Cuenta dígitos de un número (0-999).
 25. Proyecto43 - Principal.kt: Calcula promedio de números hasta ingresar 0.
 26. Proyecto44 - Principal.kt: Clasifica piezas según peso.
-27. Proyecto61 - Principal.kt: Clasifica piezas por rangos de peso usando when.
+27. Proyecto60 - Principal.kt**: Ingreso de tres notas, mostrar el estado usando when.
+28. Proyecto61 - Principal.kt**: Contar piezas según rangos de peso usando when.
+29. Proyecto62 - Principal.kt**: Ingreso de 10 sueldos y clasificación según el monto usando when.
 
 Cómo Usar
 1. Clona el repositorio:
