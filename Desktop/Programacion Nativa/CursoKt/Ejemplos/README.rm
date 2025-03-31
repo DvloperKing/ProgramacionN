@@ -1,55 +1,65 @@
-# 📚 Colección de Programas de Ejemplo en Kotlin
+Colección de Programas de Ejemplo en Kotlin
 
 Este repositorio contiene una serie de programas básicos escritos en Kotlin, diseñados para aprender conceptos fundamentales de programación como variables, condicionales, bucles y estructuras de control.
 
-## 📋 Lista de Programas
+Lista de Programas
 
-### 🔹 Básicos
-1. **Proyecto1 - Principal.kt**: "Hola Mundo" en Kotlin.
-2. **Proyecto2 - Principal.kt**: Suma y producto de dos valores inmutables.
-3. **Proyecto5 - Principal.kt**: Entrada de dos números por teclado y mostrar suma y producto.
+Básicos
+1. Proyecto1 - Principal.kt: "Hola Mundo" en Kotlin.
+2. Proyecto2 - Principal.kt: Suma y producto de dos valores inmutables.
+3. Proyecto5 - Principal.kt: Entrada de dos números por teclado y mostrar suma y producto.
 
-### 📐 Operaciones Matemáticas
-4. **Proyecto6 - Principal.kt**: Cálculo del perímetro de un cuadrado.
-5. **Proyecto7 - Principal.kt**: Cálculo del total a pagar (precio × cantidad).
-6. **Proyecto16 - Principal.kt**: Calcula cuadrado (si es par) o cubo (si es impar) de un número.
+Operaciones Matemáticas
+4. Proyecto6 - Principal.kt: Cálculo del perímetro de un cuadrado.
+5. Proyecto7 - Principal.kt: Cálculo del total a pagar (precio × cantidad).
+6. Proyecto16 - Principal.kt: Calcula cuadrado (si es par) o cubo (si es impar) de un número.
 
-### 🎚 Estructuras Condicionales
-7. **Proyecto10 - Principal.kt**: Verifica si sueldo supera $3000.
-8. **Proyecto11 - Principal.kt**: Determina el mayor entre dos números.
-9. **Proyecto15 - Principal.kt**: Obtiene el mayor entre dos números usando if como expresión.
-10. **Proyecto23 - Principal.kt**: Encuentra el mayor entre tres números.
+Estructuras Condicionales
+7. Proyecto10 - Principal.kt: Verifica si sueldo supera $3000.
+8. Proyecto11 - Principal.kt: Determina el mayor entre dos números.
+9. Proyecto15 - Principal.kt: Obtiene el mayor entre dos números usando if como expresión.
+10. Proyecto23 - Principal.kt: Encuentra el mayor entre tres números.
 
-### 🔄 Bucles (While/For)
-11. **Proyecto31 - Principal.kt**: Imprime números del 1 al 100 con while.
-12. **Proyecto47 - Principal.kt**: Imprime números del 1 al 100 con for.
-13. **Proyecto50 - Principal.kt**: Cuenta múltiplos de 3, 5 y 9 entre 1-10,000.
+Bucles (While/For)
+11. Proyecto31 - Principal.kt: Imprime números del 1 al 100 con while.
+12. Proyecto47 - Principal.kt: Imprime números del 1 al 100 con for.
+13. Proyecto50 - Principal.kt: Cuenta múltiplos de 3, 5 y 9 entre 1-10,000.
 
-### 📊 Procesamiento de Datos
-14. **Proyecto33 - Principal.kt**: Suma y promedio de 10 valores.
-15. **Proyecto34 - Principal.kt**: Cuenta piezas aptas según su medida.
-16. **Proyecto48 - Principal.kt**: Suma y promedio de 10 valores usando for.
-17. **Proyecto51 - Principal.kt**: Cuenta números pares en una secuencia.
+Procesamiento de Datos
+14. Proyecto33 - Principal.kt: Suma y promedio de 10 valores.
+15. Proyecto34 - Principal.kt: Cuenta piezas aptas según su medida.
+16. Proyecto48 - Principal.kt: Suma y promedio de 10 valores usando for.
+17. Proyecto51 - Principal.kt: Cuenta números pares en una secuencia.
 
-### 🎓 Ejercicios con Notas
-18. **Proyecto18 - Principal.kt**: Clasifica notas como "Promocionado", "Regular" o "Libre".
-19. **Proyecto49 - Principal.kt**: Cuenta aprobados/reprobados entre 10 notas.
-20. **Proyecto60 - Principal.kt**: Determina estado académico usando when.
+Ejercicios con Notas
+18. Proyecto18 - Principal.kt: Clasifica notas como "Promocionado", "Regular" o "Libre".
+19. Proyecto49 - Principal.kt: Cuenta aprobados/reprobados entre 10 notas.
+20. Proyecto60 - Principal.kt: Determina estado académico usando when.
 
-### 📅 Fechas y Clasificaciones
-21. **Proyecto24 - Principal.kt**: Verifica si una fecha es del primer trimestre.
-22. **Proyecto59 - Principal.kt**: Determina el cuadrante de coordenadas (x, y).
+Fechas y Clasificaciones
+21. Proyecto24 - Principal.kt: Verifica si una fecha es del primer trimestre.
+22. Proyecto59 - Principal.kt: Determina el cuadrante de coordenadas (x, y).
 
-### 💰 Manejo de Sueldos
-23. **Proyecto62 - Principal.kt**: Clasifica 10 sueldos según montos usando when.
+Manejo de Sueldos
+23. Proyecto62 - Principal.kt: Clasifica 10 sueldos según montos usando when.
 
-### 🔢 Operaciones Avanzadas
-24. **Proyecto42 - Principal.kt**: Cuenta dígitos de un número (0-999).
-25. **Proyecto43 - Principal.kt**: Calcula promedio de números hasta ingresar 0.
-26. **Proyecto44 - Principal.kt**: Clasifica piezas según peso.
-27. **Proyecto61 - Principal.kt**: Clasifica piezas por rangos de peso usando when.
+Operaciones Avanzadas
+24. Proyecto42 - Principal.kt: Cuenta dígitos de un número (0-999).
+25. Proyecto43 - Principal.kt: Calcula promedio de números hasta ingresar 0.
+26. Proyecto44 - Principal.kt: Clasifica piezas según peso.
+27. Proyecto61 - Principal.kt: Clasifica piezas por rangos de peso usando when.
 
-## 🚀 Cómo Usar
+Cómo Usar
 1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/tu-usuario/proyectos-kotlin.git
+   git clone https://github.com/DvloperKing/ProgramacionN
+2. Navega a cualquier proyecto:
+   cd Desktop/Programacion Nativa/CursoKt/Ejemplos
+3. Compila y ejecuta (ejemplo):
+   kotlinc Principal.kt -include-runtime -d programa.jar && java -jar programa.jar
+
+Tecnologías
+- Kotlin
+- JDK 11+
+
+Licencia
+Este proyecto está bajo la licencia MIT. Ver LICENSE para más detalles.
