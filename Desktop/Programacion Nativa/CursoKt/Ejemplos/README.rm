@@ -51,6 +51,24 @@ Operaciones Avanzadas
 28. Proyecto61 - Principal.kt**: Contar piezas según rangos de peso usando when.
 29. Proyecto62 - Principal.kt**: Ingreso de 10 sueldos y clasificación según el monto usando when.
 
+Estructuras Condicionales (when)
+30. Proyecto66 - Muestra un valor entero entre 1 y 5 en castellano usando la sentencia `when`.
+31. Proyecto67 - Indica cuántos dígitos tiene un valor entero positivo entre 1 y 10000.
+32. Proyecto68 - Cuenta cuántos valores ingresados son cero y cuántos son 1, 5 o 10.
+
+Funciones Básicas
+33. Proyecto70 - Realiza una presentación, carga dos valores, muestra su suma y un mensaje de despedida usando funciones.
+34. Proyecto71 - Solicita la carga de dos valores enteros y muestra su suma cinco veces con líneas separadoras.
+35. Proyecto74 - Muestra una presentación, carga dos valores, calcula su suma y muestra un mensaje de despedida usando funciones con parámetros.
+36. Proyecto75 - Muestra el mayor de tres valores enteros ingresados.
+37. Proyecto76 - Calcula y muestra el perímetro o la superficie de un cuadrado según la elección del usuario.
+
+Funciones con Retorno
+38. Proyecto79 - Retorna la superficie de un cuadrado dado su lado.
+39. Proyecto80 - Retorna el mayor de dos valores enteros.
+40. Proyecto81 - Compara la cantidad de caracteres de dos nombres ingresados.
+
+
 Cómo Usar
 1. Clona el repositorio:
    git clone https://github.com/DvloperKing/ProgramacionN
