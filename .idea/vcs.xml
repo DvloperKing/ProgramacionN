@@ -2,5 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Desktop/Programacion Nativa/persitenciaDatosU6/ruta2/basic-android-kotlin-compose-training-bus-schedule-app" vcs="Git" />
   </component>
 </project>
