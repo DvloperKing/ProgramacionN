@@ -154,7 +154,7 @@ fun DessertReleaseLinearLayout(
 fun DessertReleaseGridLayout(
     modifier: Modifier = Modifier,
     contentPadding: PaddingValues = PaddingValues(0.dp)
-    ) {
+) {
     LazyVerticalGrid(
         modifier = modifier,
         columns = GridCells.Fixed(3),

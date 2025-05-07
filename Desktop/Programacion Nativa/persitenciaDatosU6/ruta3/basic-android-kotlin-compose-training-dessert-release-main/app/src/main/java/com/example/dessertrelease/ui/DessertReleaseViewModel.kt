@@ -17,34 +17,59 @@ package com.example.dessertrelease.ui
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.ViewModelProvider.AndroidViewModelFactory.Companion.APPLICATION_KEY
+import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
+import com.example.dessertrelease.DessertReleaseApplication
 import com.example.dessertrelease.R
-import kotlinx.coroutines.flow.MutableStateFlow
+import com.example.dessertrelease.data.UserPreferencesRepository
+import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.flow.stateIn
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.runBlocking
 
 /*
  * View model of Dessert Release components
  */
-class DessertReleaseViewModel() : ViewModel() {
-
-    private val _uiState = MutableStateFlow(DessertReleaseUiState())
-
+class DessertReleaseViewModel(
+    private val userPreferencesRepository: UserPreferencesRepository
+) : ViewModel() {
     // UI states access for various [DessertReleaseUiState]
-    val uiState: StateFlow<DessertReleaseUiState> = _uiState
+    val uiState: StateFlow<DessertReleaseUiState> =
+        userPreferencesRepository.isLinearLayout.map { isLinearLayout ->
+            DessertReleaseUiState(isLinearLayout)
+        }.stateIn(
+            scope = viewModelScope,
+            // Flow is set to emits value for when app is on the foreground
+            // 5 seconds stop delay is added to ensure it flows continuously
+            // for cases such as configuration change
+            started = SharingStarted.WhileSubscribed(5_000),
+            initialValue = runBlocking {
+                DessertReleaseUiState(
+                    isLinearLayout = userPreferencesRepository.isLinearLayout.first()
+                )
+            }
+        )
 
     /*
      * [selectLayout] change the layout and icons accordingly and
      * save the selection in DataStore through [userPreferencesRepository]
      */
     fun selectLayout(isLinearLayout: Boolean) {
-        _uiState.value = DessertReleaseUiState(isLinearLayout)
+        viewModelScope.launch {
+            userPreferencesRepository.saveLayoutPreference(isLinearLayout)
+        }
     }
 
     companion object {
         val Factory: ViewModelProvider.Factory = viewModelFactory {
             initializer {
-                DessertReleaseViewModel()
+                val application = (this[APPLICATION_KEY] as DessertReleaseApplication)
+                DessertReleaseViewModel(application.userPreferencesRepository)
             }
         }
     }
