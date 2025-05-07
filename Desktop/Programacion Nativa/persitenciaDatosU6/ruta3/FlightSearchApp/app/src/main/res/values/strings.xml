@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FlightSearchApp</string>
+    <string name="search">Search</string>
+    <string name="iata_code">IATA Code</string>
+    <string name="airport_name">Airport Name</string>
+    <string name="flights_from">Flights from %1$s</string>
+    <string name="no_flights">No flights available from this airport.</string>
+    <string name="departure">Departure: %1$s</string>
+    <string name="arrival">Arrival: %1$s</string>
+    <string name="no_airports_found">No airports found.</string>
+
+    <string name="back_to_favorites">Back to Favorites</string>
+    <string name="favorite_destinations">Favorite Destinations</string>
+    <string name="favorite_flight">Departure: %1$s, Destination: %2$s</string>
+    <string name="no_favorite_flights">No favorite flights saved yet.</string>
+    <string name="frequent_airports">Frequent Airports</string>
+    <string name="no_frequent_airports">No frequent airports to display.</string>
+</resources>
