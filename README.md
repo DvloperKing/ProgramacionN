@@ -1,75 +1,123 @@
-✨ Programación Nativa ✨
+### 🌟 **Programación Nativa** 🌟
 
-Welcome to the Programación Nativa repository! This is where we develop and upload native applications built using Kotlin. Whether you're a developer looking to explore Kotlin-based applications or a contributor wanting to improve and expand our projects, you're in the right place. 🚀
+¡Bienvenido al repositorio de **Programación Nativa**! Aquí desarrollamos y subimos aplicaciones nativas creadas con **Kotlin**. 
 
-📌 About
+---
 
-This repository contains a collection of Kotlin-based native applications. Our goal is to leverage the power of Kotlin to create high-performance, efficient, and user-friendly mobile applications.
+📌 **Acerca del Proyecto**
 
-🛠 Technologies Used
+Este repositorio contiene una colección de aplicaciones nativas desarrolladas en **Kotlin**. 
 
-Kotlin – The primary programming language for Android development
+---
 
-Jetpack Compose – For modern UI development
+🛠 **Tecnologías Utilizadas**
 
-Android SDK – Core development environment
+* **Kotlin** – El lenguaje principal para el desarrollo en Android.
+* **Jetpack Compose** – Para el desarrollo moderno de interfaces de usuario.
+* **Android SDK** – Entorno de desarrollo principal.
+* **Gradle** – Gestión de dependencias y construcción del proyecto.
 
-Gradle – Dependency management and project building
+---
+📂 **Estructura del Proyecto**
 
-📂 Project Structure
+```bash
+├── CursoKt
+│   └── Ejemplos
+├── Kotlin-StackOverFlow-Proyects
+│   ├── Kotlin-StackOverFlow-Proyects.iml
+│   └── src
+├── README.md
+├── persitenciaDatosU6
+│   ├── ruta1
+│   ├── ruta2
+│   └── ruta3
+└── proyectosIniciales
+    ├── AhorcadoGame
+    ├── Calculadora
+    ├── CalculadoraApp
+    ├── CalculadoraIMC
+    ├── CalculadoraIphone.kt-main
+    ├── Calculate_Volumenes
+    ├── Chronometer
+    ├── Conversor
+    ├── GeneratePass
+    ├── GettingStartedApp
+    ├── Login
+    ├── P1_nativa
+    ├── Quicknotes
+    ├── RegistrationForm
+    ├── SimpleGame
+    ├── barcodegenerator
+    ├── contador
+    ├── countdowntimer
+    ├── gameDado
+    ├── lampapp
+    ├── qrgenerator
+    ├── temperatureconverter
+    ├── todolist
+    └── worldclock
+```
 
-All applications are stored inside the Desktop/Programacion Nativa/ directory, each in its own folder. Inside each app folder, you’ll find:
+---
 
-app/ – Main application code
+🚀 **Cómo Empezar**
 
-res/ – Resources (images, layouts, etc.)
+Para configurar y ejecutar los proyectos localmente:
 
-gradle/ – Project dependencies and configurations
+1. Clona el repositorio:
 
-README.md – Details about the specific project
+   ```bash
+   git clone https://github.com/DveloperKing/ProgramacionN.git
+   ```
 
-🚀 Getting Started
+2. Navega a la carpeta `Desktop/Programacion Nativa/`.
 
-To set up and run the projects locally:
+3. Abre el proyecto deseado en **Android Studio**.
 
-Clone the repository:
+4. Sincroniza Gradle y compila el proyecto.
 
-git clone https://github.com/DveloperKing/ProgramacionN.git
+5. Ejecuta la aplicación en un emulador o dispositivo físico.
 
-Navigate to the Desktop/Programacion Nativa/ directory.
+---
 
-Open the desired project in Android Studio.
+🤝 **Contribuciones**
 
-Sync Gradle and build the project.
+¡Las contribuciones son bienvenidas! Si deseas colaborar:
 
-Run the app on an emulator or a physical device.
+1. Realiza un **fork** del repositorio.
 
-🤝 Contributing
+2. Crea una nueva rama (`feature/nueva-funcionalidad`).
 
-We welcome contributions! If you'd like to collaborate:
+3. Realiza tus cambios y haz un commit:
 
-Fork the repository.
+   ```bash
+   git commit -m "Añadir nueva funcionalidad"
+   ```
 
-Create a new branch (feature/amazing-feature).
+4. Envía los cambios a tu rama:
 
-Commit your changes (git commit -m 'Add an amazing feature').
+   ```bash
+   git push origin feature/nueva-funcionalidad
+   ```
 
-Push to the branch (git push origin feature/amazing-feature).
+5. Abre un **Pull Request**.
 
-Open a Pull Request.
+---
 
-📄 License
+📄 **Licencia**
 
-This project is licensed under the MIT License – see the LICENSE file for details.
+Este proyecto está bajo la licencia **MIT**. Consulta el archivo `LICENSE` para más detalles.
 
-🌟 Stay Connected
+---
 
-For updates and discussions, feel free to:
+🌟 **Mantente Conectado**
 
-Open an issue for suggestions or bugs.
+Para actualizaciones y discusiones:
 
-Join our community discussions.
+* Abre un **issue** para sugerencias o reportes de errores.
+* Únete a nuestras discusiones en la comunidad.
 
-Happy coding! 💻🔥
+¡Feliz programación! 💻🔥
 
+---
 
