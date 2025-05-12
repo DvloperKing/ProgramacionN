@@ -21,16 +21,24 @@ Este repositorio contiene una colección de aplicaciones nativas desarrolladas e
 📂 **Estructura del Proyecto**
 
 ```bash
-├── CursoKt
-│   └── Ejemplos
-├── Kotlin-StackOverFlow-Proyects
-│   ├── Kotlin-StackOverFlow-Proyects.iml
-│   └── src
+.
+├── CursoKt - Libro de KotlinYA.
+│   └── Ejemplos
+├── Kotlin-StackOverFlow-Proyects 
+│   ├── Kotlin-StackOverFlow-Proyects.iml
+│   └── src
 ├── README.md
+├── Unidad2UIApp
+│   └── basic-android-kotlin-compose-training-tip-calculator-starter
+├── Unidad2UIAppTarea08
+│   ├── README.md
+│   ├── ruta1Tarea8U2
+│   └── ruta3Tarea8U2
 ├── persitenciaDatosU6
-│   ├── ruta1
-│   ├── ruta2
-│   └── ruta3
+│   ├── README.md
+│   ├── ruta1
+│   ├── ruta2
+│   └── ruta3
 └── proyectosIniciales
     ├── AhorcadoGame
     ├── Calculadora

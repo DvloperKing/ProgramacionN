@@ -2,7 +2,7 @@
 .DS_Store
 
 #Archivos de android studio
-.idea/
+*.idea/
 *.iml
 *.apk
 build/
