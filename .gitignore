@@ -1,0 +1,8 @@
+#Ignorar archivos del sistema MacOs
+.DS_Store
+
+#Archivos de android studio
+.idea/
+*.iml
+*.apk
+build/
