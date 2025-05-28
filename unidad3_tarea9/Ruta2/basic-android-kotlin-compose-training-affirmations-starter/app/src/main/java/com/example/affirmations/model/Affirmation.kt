@@ -9,3 +9,5 @@ data class Affirmation(
     @DrawableRes val imageResourceId: Int
 
 )
+
+
