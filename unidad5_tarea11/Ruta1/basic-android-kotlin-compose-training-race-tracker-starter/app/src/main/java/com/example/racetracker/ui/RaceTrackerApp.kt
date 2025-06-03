@@ -36,6 +36,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -66,7 +67,12 @@ fun RaceTrackerApp() {
         RaceParticipant(name = "Player 2", progressIncrement = 2)
     }
     var raceInProgress by remember { mutableStateOf(false) }
-
+if (raceInProgress){//if race is in progress or when user hits start
+        LaunchedEffect(playerOne, playerTwo,) {
+            playerOne.run()//run function to simulate race
+            playerTwo.run()//run function to simulate race
+            raceInProgress = false//race is over
+        }}
     RaceTrackerScreen(
         playerOne = playerOne,
         playerTwo = playerTwo,
