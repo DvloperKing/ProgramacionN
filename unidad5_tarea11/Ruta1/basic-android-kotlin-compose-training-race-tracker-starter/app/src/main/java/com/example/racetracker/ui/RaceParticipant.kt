@@ -15,10 +15,12 @@
  */
 package com.example.racetracker.ui
 
+import android.util.Log
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import kotlinx.coroutines.delay
+import kotlin.coroutines.cancellation.CancellationException
 
 /**
  * This class represents a state holder for race participant.
@@ -32,12 +34,16 @@ class RaceParticipant(
 ) {
     //Iplements run function to simulate race
     suspend fun run() {
-        //while currentProgress is less than maxProgress
-        while (currentProgress < maxProgress) {
-            delay(progressDelayMillis) //delay for progressDelayMillis
-            currentProgress += progressIncrement //increase currentProgress by progressIncrement
+        try {
+            while (currentProgress < maxProgress) {
+                delay(progressDelayMillis)
+                currentProgress += progressIncrement
+            }
+        } catch (e: CancellationException) {
+            Log.e("RaceParticipant", "$name: ${e.message}")
+            throw e // Always re-throw CancellationException.
         }
-        }
+    }
 
     init {
         require(maxProgress > 0) { "maxProgress=$maxProgress; must be > 0" }

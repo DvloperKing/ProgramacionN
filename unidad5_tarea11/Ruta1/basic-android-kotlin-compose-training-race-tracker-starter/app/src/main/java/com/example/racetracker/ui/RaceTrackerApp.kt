@@ -52,6 +52,8 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.racetracker.R
 import com.example.racetracker.ui.theme.RaceTrackerTheme
+import kotlinx.coroutines.coroutineScope
+import kotlinx.coroutines.launch
 
 @Composable
 fun RaceTrackerApp() {
@@ -68,11 +70,14 @@ fun RaceTrackerApp() {
     }
     var raceInProgress by remember { mutableStateOf(false) }
 if (raceInProgress){//if race is in progress or when user hits start
-        LaunchedEffect(playerOne, playerTwo,) {
-            playerOne.run()//run function to simulate race
-            playerTwo.run()//run function to simulate race
-            raceInProgress = false//race is over
-        }}
+    LaunchedEffect(playerOne, playerTwo) {
+        coroutineScope { //coroutine scope to run both players in parallel
+            launch { playerOne.run() } //launch coroutine to run playerOne
+            launch { playerTwo.run() } //launch coroutine to run playerTwo
+        }
+        raceInProgress = false //when both players finish, set raceInProgress to false
+    }
+}
     RaceTrackerScreen(
         playerOne = playerOne,
         playerTwo = playerTwo,
