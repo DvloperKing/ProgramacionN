@@ -22,14 +22,31 @@ Este repositorio contiene una colección de aplicaciones nativas desarrolladas e
 
 ```bash
 .
-├── CursoKt - Libro de KotlinYA.
+├── CursoKt
 │   └── Ejemplos
-├── Kotlin-StackOverFlow-Proyects 
+├── Kotlin-StackOverFlow-Proyects
 │   ├── Kotlin-StackOverFlow-Proyects.iml
 │   └── src
 ├── README.md
-├── Unidad2UIApp
-│   └── basic-android-kotlin-compose-training-tip-calculator-starter
+├── Tarea-7-Unidad-1-Moviles-main
+│   ├── app
+│   ├── build.gradle.kts
+│   ├── gradle
+│   ├── gradle.properties
+│   ├── gradlew
+│   ├── gradlew.bat
+│   └── settings.gradle.kts
+├── Tarea-No.-13-Unidad-8-Views-and-Compose-main
+│   ├── CONTRIBUTING.md
+│   ├── LICENSE
+│   ├── README.md
+│   ├── app
+│   ├── build.gradle.kts
+│   ├── gradle
+│   ├── gradle.properties
+│   ├── gradlew
+│   ├── gradlew.bat
+│   └── settings.gradle.kts
 ├── Unidad2UIAppTarea08
 │   ├── README.md
 │   ├── ruta1Tarea8U2
@@ -39,31 +56,53 @@ Este repositorio contiene una colección de aplicaciones nativas desarrolladas e
 │   ├── ruta1
 │   ├── ruta2
 │   └── ruta3
-└── proyectosIniciales
-    ├── AhorcadoGame
-    ├── Calculadora
-    ├── CalculadoraApp
-    ├── CalculadoraIMC
-    ├── CalculadoraIphone.kt-main
-    ├── Calculate_Volumenes
-    ├── Chronometer
-    ├── Conversor
-    ├── GeneratePass
-    ├── GettingStartedApp
-    ├── Login
-    ├── P1_nativa
-    ├── Quicknotes
-    ├── RegistrationForm
-    ├── SimpleGame
-    ├── barcodegenerator
-    ├── contador
-    ├── countdowntimer
-    ├── gameDado
-    ├── lampapp
-    ├── qrgenerator
-    ├── temperatureconverter
-    ├── todolist
-    └── worldclock
+├── proyectosIniciales
+│   ├── AhorcadoGame
+│   ├── Calculadora
+│   ├── CalculadoraApp
+│   ├── CalculadoraIMC
+│   ├── CalculadoraIphone.kt-main
+│   ├── Calculate_Volumenes
+│   ├── Chronometer
+│   ├── Conversor
+│   ├── GeneratePass
+│   ├── GettingStartedApp
+│   ├── Login
+│   ├── P1_nativa
+│   ├── Quicknotes
+│   ├── README.md
+│   ├── RegistrationForm
+│   ├── SimpleGame
+│   ├── barcodegenerator
+│   ├── contador
+│   ├── countdowntimer
+│   ├── gameDado
+│   ├── lampapp
+│   ├── qrgenerator
+│   ├── temperatureconverter
+│   ├── todolist
+│   └── worldclock
+├── tarea10Unidad4
+│   └── Ruta1
+├── tarea12Unidad7Workmanager
+│   ├── CONTRIBUTING.md
+│   ├── LICENSE
+│   ├── README.md
+│   ├── app
+│   ├── build.gradle.kts
+│   ├── gradle
+│   ├── gradle.properties
+│   ├── gradlew
+│   ├── gradlew.bat
+│   ├── local.properties
+│   └── settings.gradle.kts
+├── unidad3_tarea9
+│   ├── Ruta1
+│   ├── Ruta2
+│   └── Ruta3
+└── unidad5_tarea11
+    ├── Ruta1
+    └── Ruta2
 ```
 
 ---
